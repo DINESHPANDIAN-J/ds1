@@ -1,0 +1,21 @@
+1.[setup.py:----->]
+
+"setup.py is a script used in Python projects to define the metadata and configuration for the distribution of a Python package.
+A Python package is a collection of modules, scripts, and resources that can be easily distributed and installed.
+The setup.py script is used to create a distribution of the package that can be uploaded to the Python Package Index (PyPI) or distributed in other ways.
+################################
+
+2.["-e ."---->:]
+In the context of Python's pip package manager, the -e . command is used to install a package in "editable" mode from the current directory (denoted by the .). This is often referred to as "editable mode" or "development mode" installation. When you install a package in editable mode, changes you make to the source code of that package will immediately take effect without needing to reinstall it.
+Here's what the command does:
+-e: This flag tells pip to install the package in "editable" mode. In this mode, the package is installed as a symbolic link or symlink. This means that any changes you make to the package's source code are directly reflected in the installed package without requiring a reinstallation.
+. (dot): This refers to the current directory. When you provide . as an argument to -e, it tells pip to install the package from the current directory. This is useful when you're actively developing a package and want to see changes reflected immediately.
+################################
+
+3.["Exception & Documentation"---->:]
+The exceptions are like signals that something unexpected happened in your program, and Python's documentation is your guidebook to understanding and addressing these unexpected situations so your code can keep running smoothly.
+Python's documentation helps you recognize and tells you how to respond to them.
+
+["sys--->:"]
+sys is like a helper friend that helps your Python program interact with the larger environment it's running in. It's part of the Python standard library and provides access to various system-related functionalities.
+Think of it as a toolbox for tasks that involve your computer or the Python interpreter itself.
